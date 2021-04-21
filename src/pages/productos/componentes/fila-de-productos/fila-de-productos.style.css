@@ -1,17 +1,23 @@
 .fila-de-productos-container{
-    border: 2px solid rgb(51, 143, 74);
+    border: 2px solid rgb(12, 12, 12);
     text-align: left;
+    width: 70%;
     
     margin-bottom: 12px;
     margin-top: 10px;
     border-radius: 10px;
-  
     
+  
+    }
+    .leave-a-note{
+        color: red;
+    }
+    .generomf{
 
+        color: slateblue;
 
+    }
 
-
-}
 
 
    

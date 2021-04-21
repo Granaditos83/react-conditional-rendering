@@ -2,16 +2,21 @@
     width: 95%;
     margin: 0 auto;
     min-height:75px;
-    border: 2px solid rgb(6, 6, 245);
+    border: 2px solid rgb(8, 8, 8);
     padding: 10px;
     margin-top: 10px;
-    text-align: left;
+    text-align: center;
     border-radius: 10px;
 
 }
 
 .search-input {
     margin-bottom: 10px;
+}
+
+h1{
+color: rgb(44, 37, 36);
+
 }
 
    

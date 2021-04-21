@@ -1,10 +1,14 @@
 .fila-de-elementos-categoricos-container{
-    border: 2px solid rgb(0, 140, 255);
-    text-align: left;
+    border: 4px solid rgb(18, 18, 19);
+    text-align: center;
     font-weight: bold;
     margin-bottom: 12px;
     margin-top: 10px;
     border-radius: 10px;
+    width:80%;
+    /*este es el color de fondo de los componentes*/
+    background: rgb(0, 0, 250);
+    background: linear-gradient(500deg, rgb(233, 34, 34) 10%, rgb(223, 241, 121) 35%, rgb(238, 65, 151) 100%);
   
     
 

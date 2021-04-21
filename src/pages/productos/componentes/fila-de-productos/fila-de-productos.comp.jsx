@@ -7,7 +7,38 @@ const FilaDeProductos =  (props) => {
     return(
 
         <div className="fila-de-productos-container">
-          {props.producto.estudiante}      {props.producto.curso}      {props.producto.nota}
+
+            {props.producto.estudiante} {'      '} 
+
+
+            {
+
+props.producto.genero === "Femenino"
+?
+<span className= "generomf" > {props.producto.genero}  </span>
+:
+<span> {props.producto.genero}   </span>
+
+
+
+}
+          
+
+          {
+
+            props.producto.nota === 0 && 3 
+            ?
+            <span className= "leave-a-note" > {props.producto.nota} </span>
+            :
+            <span> {props.producto.nota}  </span>
+
+
+
+          }
+        
+
+
+                   
 
             
 
@@ -17,9 +48,9 @@ const FilaDeProductos =  (props) => {
            
         </div>
         
-    )
+    );
 
 
 
-};
+}
 export default FilaDeProductos;

@@ -2,6 +2,7 @@ import React from 'react';
 import './barra-de-busqueda.style.css'
 
 
+
 const BarraDeBusqueda =  () => {
 
     return(
@@ -11,10 +12,8 @@ const BarraDeBusqueda =  () => {
 <div className="search-input">
   <input type="text" placeholder="search.."/>
 </div>
+<h1>Phillips Exeter Academy</h1>
 
-<div>
-   <input type ="checkbox"/> Only show products in stock
-</div>
            
         </div>
         

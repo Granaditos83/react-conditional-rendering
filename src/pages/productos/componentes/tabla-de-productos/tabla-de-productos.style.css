@@ -1,10 +1,13 @@
 .tabla-de-productos-container{
     width: 95%;
     margin: 0 auto;
-    min-height:490px;
-    border: 2px solid rgb(101, 250, 2);
+    min-height:40px;
+    border: 3px solid rgb(71, 67, 67);
+    padding: 10px;
     margin-top: 10px;
+    text-align: left;
     border-radius: 10px;
+    
    
 
 

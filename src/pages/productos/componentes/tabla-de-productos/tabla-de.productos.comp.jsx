@@ -9,23 +9,103 @@ const TablaDeProductos =  () => {
     return(
 
         <div className ="tabla-de-productos-container " >
-          <FilaDeElementosCategoricos NombreCategoria="Estudents"  />
+
+          
+          <FilaDeElementosCategoricos NombreCategoria="Programming 1 "  />
+
+          Name..  Gender..  Note
           <FilaDeProductos producto ={{
-            estudiante :"cristian",
-            curso :"Programacion 4",
-            nota :3,
+            estudiante :"Cristian Granados",
+            genero :"Masculino",
+            nota: 5,
+           
           }}  />
 
             <FilaDeProductos producto ={{
-              estudiante :"carlos",
-              curso :" Matematica",
+              estudiante :"Diego Rojas",
+              genero :"Masculino",
               nota :4,
             
 
 
           }}  />
-          <FilaDeElementosCategoricos NombreCategoria="Courses"  />
-          <FilaDeElementosCategoricos NombreCategoria="notes"  />
+              <FilaDeProductos producto ={{
+              estudiante :"Pedro Perez",
+              genero :"Masculino",
+              nota :0,
+            
+
+
+          }}  />
+              <FilaDeProductos producto ={{
+              estudiante :"carlos Martinez",
+              genero :"Masculino",
+              nota :4,
+
+              
+            
+
+
+          }}  />
+              <FilaDeProductos producto ={{
+              estudiante :"Andres Agudelo",
+              genero :"Masculino",
+              nota :0,
+            
+
+
+          }}  />
+          <FilaDeElementosCategoricos NombreCategoria="Special math"  />
+          Name..  Gender..  Note
+          <FilaDeProductos producto ={{
+            estudiante :"Osman Perez",
+            genero :"Masculino",
+            nota :0,
+          }}  />
+
+            <FilaDeProductos producto ={{
+              estudiante :"Lucia Rojas",
+              genero: "Femenino",
+              nota :4,
+            }}  />
+            
+
+
+         
+            
+          <FilaDeElementosCategoricos NombreCategoria="Software Engineering"  />
+          {'Nombre '}  {'Genero'}  {' Nota'}
+          <FilaDeProductos producto ={{
+            estudiante :"Maria Fernanda Cortez",
+            genero: "Femenino",
+            nota :3,
+          }}  />
+
+            <FilaDeProductos producto ={{
+              estudiante :"Jhonatan Ocampo",
+              genero :"Masculino",
+              nota :4,
+            
+
+
+          }}  />
+
+<FilaDeElementosCategoricos NombreCategoria="Operating systems"  />
+          Name..  Gender .. Note
+          <FilaDeProductos producto ={{
+            estudiante :"Fernanda Aristizabal",
+            genero: "Femenino",
+            nota :0,
+          }}  />
+
+            <FilaDeProductos producto ={{
+              estudiante :"Jaime Valencia",
+              genero :"Masculino",
+              nota :0,
+            
+
+
+          }}  />
           
           
 
