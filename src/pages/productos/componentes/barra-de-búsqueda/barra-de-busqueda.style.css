@@ -1,0 +1,20 @@
+.barra-de-busqueda-container {
+    width: 95%;
+    margin: 0 auto;
+    min-height:75px;
+    border: 2px solid rgb(6, 6, 245);
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+    border-radius: 10px;
+
+}
+
+.search-input {
+    margin-bottom: 10px;
+}
+
+   
+
+
+ 
