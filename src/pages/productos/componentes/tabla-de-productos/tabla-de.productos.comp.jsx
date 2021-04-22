@@ -24,7 +24,7 @@ const TablaDeProductos =  () => {
             <FilaDeProductos producto ={{
               estudiante :"Diego Rojas",
               genero :"Masculino",
-              nota :4,
+              nota :3,
             
 
 
@@ -40,7 +40,7 @@ const TablaDeProductos =  () => {
               <FilaDeProductos producto ={{
               estudiante :"carlos Martinez",
               genero :"Masculino",
-              nota :4,
+              nota :3,
 
               
             
@@ -68,6 +68,31 @@ const TablaDeProductos =  () => {
               genero: "Femenino",
               nota :4,
             }}  />
+
+            <FilaDeProductos producto ={{
+            estudiante :"Daniela Campos",
+            genero :"Femenino",
+            nota :0,
+          }}  />
+
+            <FilaDeProductos producto ={{
+              estudiante :"Karla Jimenez",
+              genero: "Femenino",
+              nota :4,
+            }}  />
+
+            <FilaDeProductos producto ={{
+            estudiante :"Leonardo Granados",
+            genero :"Masculino",
+            nota :0,
+          }}  />
+
+            <FilaDeProductos producto ={{
+              estudiante :"Jennifer Lopez",
+              genero: "Femenino",
+              nota :4,
+            }}  />
+            
             
 
 
@@ -82,13 +107,29 @@ const TablaDeProductos =  () => {
           }}  />
 
             <FilaDeProductos producto ={{
-              estudiante :"Jhonatan Ocampo",
+              estudiante :"Jhonatan Ocampo", 
               genero :"Masculino",
               nota :4,
+            }}  />
+              <FilaDeProductos producto ={{
+              estudiante :"Brayan Salgadoo", 
+              genero :"Masculino",
+              nota :4,
+            }}  />
+              <FilaDeProductos producto ={{
+              estudiante :"Liliana Martinez", 
+              genero :"Femenino",
+              nota :0,
+            }}  />
+              <FilaDeProductos producto ={{
+              estudiante :"Cristian Camilo Perez", 
+              genero :"Masculino",
+              nota :5,
+            }}  />
             
 
 
-          }}  />
+          
 
 <FilaDeElementosCategoricos NombreCategoria="Operating systems"  />
           Name..  Gender .. Note
@@ -99,13 +140,29 @@ const TablaDeProductos =  () => {
           }}  />
 
             <FilaDeProductos producto ={{
-              estudiante :"Jaime Valencia",
+              estudiante :"Jaime Martinez",
               genero :"Masculino",
               nota :0,
+            }}  />
+             <FilaDeProductos producto ={{
+              estudiante :"Petra Gomez",
+              genero :"Femenino",
+              nota :0,
+            }}  />
+             <FilaDeProductos producto ={{
+              estudiante :"jose Andres Cotinchara",
+              genero :"Masculino",
+              nota :0,
+            }}  />
+             <FilaDeProductos producto ={{
+              estudiante :"Ximena Perez Gomez",
+              genero :"Femenino",
+              nota :0,
+            }}  />
             
 
 
-          }}  />
+       
           
           
 

@@ -2,31 +2,28 @@ import React from 'react';
 import './fila-de-productos.style.css';
 
 
+
+
 const FilaDeProductos =  (props) => {
 
     return(
 
         <div className="fila-de-productos-container">
 
-            {props.producto.estudiante} {'      '} 
-
-
+            {props.producto.estudiante} 
+            
             {
 
-props.producto.genero === "Femenino"
-?
-<span className= "generomf" > {props.producto.genero}  </span>
-:
-<span> {props.producto.genero}   </span>
-
-
-
-}
+           props.producto.genero === "Femenino"
+           ?
+          <span className= "generof" > {props.producto.genero}  </span>
+          :
+          <span> {props.producto.genero}   </span>
           
-
+        }
           {
 
-            props.producto.nota === 0 && 3 
+            props.producto.nota ===   0 
             ?
             <span className= "leave-a-note" > {props.producto.nota} </span>
             :
@@ -35,20 +32,21 @@ props.producto.genero === "Femenino"
 
 
           }
+          </div>
         
+        );
+          
+          
+          
+          
+       
 
-
-                   
-
-            
-
+       
+        
+          
           
 
 
-           
-        </div>
-        
-    );
 
 
 
