@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
   
+  
 }
 
 body {
@@ -10,10 +11,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #0a0a0a;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
+    
 }
 
