@@ -36,7 +36,7 @@ const TablaDeProductos =  () => {
               <FilaDeProductos producto ={{
               estudiante :"carlos Martinez",
               genero :"Masculino",
-              nota :3,
+              nota :2.9,
 
               
             

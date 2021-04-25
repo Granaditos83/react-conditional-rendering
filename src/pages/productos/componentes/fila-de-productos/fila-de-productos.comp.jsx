@@ -5,6 +5,8 @@ import './fila-de-productos.style.css';
 
 
 
+
+
 const FilaDeProductos =  (props) => {
 
   return(
@@ -22,13 +24,14 @@ const FilaDeProductos =  (props) => {
         
         
         }
+        
           
         {
 
          props.producto.genero === "Femenino", "Masculino"
          
          ?
-        <span className= "generof"  > {props.producto.genero}-  </span>
+        <span className= "genero"  > {props.producto.genero}-  </span>
         :
         <span> {props.producto.genero}  </span>
         
@@ -39,7 +42,7 @@ const FilaDeProductos =  (props) => {
          
         {
 
-          props.producto.nota <= 2.9
+          props.producto.nota <= 2.99
           ?
           <span className= "leave-a-note" > {props.producto.nota}- Failed subject</span> 
           :
